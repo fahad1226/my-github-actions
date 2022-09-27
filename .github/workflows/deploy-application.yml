@@ -11,9 +11,26 @@ jobs:
     name: Create deployment artifacts
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v2
 
       - name: Compile CSS and JavaScript
         run: |
           npm install
           npm run build
+      
+
+      - name: Configure PHP 8
+        
+        uses: shivammathur/setup-php@master
+
+        with: 
+
+          php-version: '8.0'
+
+          extensions: mbstring, ctype, fileinfo, openssl, PDO, bcmath, json, tokenizer, xml
+
+
+
+
+
