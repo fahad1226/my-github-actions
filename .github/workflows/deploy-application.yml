@@ -30,3 +30,8 @@ jobs:
       - name: Install composer dependencies
 
         run: composer update
+
+
+      - name: Create deployment artifacts
+
+        run: tar -czf app.tar.gz --exclude=*.git --exclude=node_modules *
