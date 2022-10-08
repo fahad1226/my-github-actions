@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Today.do",
+        "ip": "68.183.23.125",
+        "username": "iyt0OMkT6nXTP8xO",
+        "password": "mQZHwARxzv0t0F99",
+        "port": "22",
+        "beforeHooks": "",
+        "afterHooks": "",
+        "path": "/var/www/html"
+    }
+]
