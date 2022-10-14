@@ -62,11 +62,10 @@ jobs:
           name: app-build
 
       - name: Upload
-      uses: appleboy/scp-action@master
-
-      with:
-        host: ${{ matrix.server.ip }}
-        username: ${{ matrix.server.username }}
-        port: ${{ matrix.server.port }}
-        source: ${{ github.sha }}.tar.gz
-        target: ${{ matrix.server.path }}/artifacts
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ matrix.server.ip }}
+          username: ${{ matrix.server.username }}
+          port: ${{ matrix.server.port }}
+          source: ${{ github.sha }}.tar.gz
+          target: ${{ matrix.server.path }}/artifacts
