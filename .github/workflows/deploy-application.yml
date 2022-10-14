@@ -62,7 +62,7 @@ jobs:
         with:
           name: app-build
       - name: Upload
-        uses: anvychow/workplanr@master
+        uses: appleboy/scp-action@master
         with:
           host: ${{ matrix.server.ip }}
           username: ${{ matrix.server.username }}
