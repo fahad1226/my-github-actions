@@ -7,6 +7,6 @@
         "port": "22",
         "beforeHooks": "echo $GITHUB_SHA",
         "afterHooks": "",
-        "path": "/home/Rsq8YmX9ZOHA7Vul/planning-dev/public_html/public"
+        "path": "/home/Rsq8YmX9ZOHA7Vul/planning-dev/public_html"
     }
 ]
