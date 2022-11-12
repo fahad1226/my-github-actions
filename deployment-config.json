@@ -7,6 +7,6 @@
         "port": "22",
         "beforeHooks": "",
         "afterHooks": "",
-        "path": "/var/www/html"
+        "path": "/home/Rsq8YmX9ZOHA7Vul/planning-dev/public_html/public"
     }
 ]
