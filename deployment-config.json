@@ -2,11 +2,11 @@
     {
         "name": "Today.do",
         "ip": "68.183.23.125",
-        "username": "Rsq8YmX9ZOHA7Vul",
-        "password": "jWE5sBHhBr7LWZog",
+        "username": "nV46VQAzjnNkSAMw",
+        "password": "FyXV1hGHsHXipLbJ",
         "port": "22",
         "beforeHooks": "",
         "afterHooks": "",
-        "path": "/home/Rsq8YmX9ZOHA7Vul/planning-dev/public_html"
+        "path": "/home/nV46VQAzjnNkSAMw/Continuous_Deployment/public_html"
     }
 ]
